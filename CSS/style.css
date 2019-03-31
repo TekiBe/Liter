@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic|Playfair+Display+SC:400,700&subset=latin,cyrillic);
+body{
+	background: radial-gradient(ellipse,#ccaa33,#997333);
+	overflow: hidden;
+	position: relative;
+  font-family: 'comic sans ms', serif; Playfair Display SC
+}
+a{
+		font-size: 20px;
+	  color: #805d29;
+		text-decoration: none;
+}
+#main{
+	margin-top: 50px;
+	position:absolute;
+	background:#ebe6d7;
+	height: 106%;
+	width: 80%;
+	margin-left: 10%;
+	box-shadow: 0 0 35px rgba(0,0,0,0.5);
+}
+#header{
+	box-shadow: 0 0 35px rgba(0,0,0,0.5);
+	margin-top: -10;
+	margin-left: 10%;
+	padding-top: 20;
+	position: absolute;
+  background: radial-gradient(ellipse,#03a762,#06965a);
+	width: 80%;
+	height: 50px;
+	overflow: hidden;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding-left: 0px;
+	text-align: center;
+}
+#header li{
+	display: inline;
+	margin-left: 25px;
+}
+#header a{
+font-size: 18;
+box-shadow: 0 0 15px rgba(0,0,0,0.5);
+text-decoration: none;
+text-align:center;
+background: radial-gradient(ellipse,#4ab312,#06965a);
+color:#000000;
+padding: 10px 20px;
+-moz-transition: all 0.3s 0.01s ease;
+-o-transition: all 0.3s 0.01s ease;
+-webkit-transition: all 0.3s 0.01s ease;
+}
+#header a:hover {
+	  border-radius:10px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	padding: 15px 25px;
+	background: #55d113;
+	color:#3b3b3b;
+	font-size:20;
+}
+.Image{
+padding-left: 45%;
+width: 50%;
+height: 40%;
+}
+.Lmage{
+padding-left: 45%;
+width: 50%;
+height: 35%;
+}
+.blokImage{
+padding-left: 65%;
+width: 30%;
+height: 38%;
+}
+.xlebImage{
+padding-left: 65%;
+width: 25%;
+height: 37%;
+}
+.TextDiv{
+	padding-left: 2.5%;
+	padding-top: 1%;
+	overflow: auto;
+	background: #ebe6d7;
+}
+#MainText {
+	font-size: 23;
+	color: #0f0f0d;
+	width: 97.5%;
+	height: 52%;
+	text-align: center;
+	text-decoration: none;
+}
+#iMainText {
+	font-size: 23;
+	color: #0f0f0d;
+	width: 97.5%;
+	height: 82%;
+	text-align: left;
+	text-decoration: none;
+}
+#Author a{
+	color: #000000;
+	box-shadow: 0 0 15px rgba(0,0,0,0.5);
+	background: radial-gradient(ellipse,#409f0d,#06965a);
+	padding: 10px 20px;
+	text-decoration: none;
+	-moz-transition: all 0.3s 0.01s ease;
+	-o-transition: all 0.3s 0.01s ease;
+	-webkit-transition: all 0.3s 0.01s ease;
+}
+#Author a:hover{
+	box-shadow: 0 0 0px rgba(0,0,0,0.5);
+}
+#Author {
+	padding-left: 45%;
+	height: 7%;
+	background: #aba692;
+	background: radial-gradient(ellipse,#03a762,#06965a);
+}
